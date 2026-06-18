@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "noImplicitAny": false,     // <-- Garanta que está false e sem o // no início
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,             // <-- Se quiser relaxar geral, mude strict para false
+    "skipLibCheck": true,
+     "types": ["node"]
+  }
+}
